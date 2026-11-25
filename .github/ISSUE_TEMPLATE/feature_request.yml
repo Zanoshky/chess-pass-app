@@ -25,11 +25,17 @@ body:
         - Today
         - Openings
         - Opening page
-        - Drill
+        - Watch
+        - Practice
+        - Play it out
         - Traps
+        - Words
+        - Practice match
         - Shared game
         - Pro
         - Settings
+        - Widgets and tiles
+        - Look
         - Backup
         - Other
     validations:

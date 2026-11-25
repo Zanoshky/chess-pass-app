@@ -16,11 +16,17 @@ body:
         - Today
         - Openings
         - Opening page
-        - Drill
+        - Watch
+        - Practice
+        - Play it out
         - Traps
+        - Words
+        - Practice match
         - Shared game
         - Pro
         - Settings
+        - Widgets and tiles
+        - Look
         - Backup
         - Other
     validations:
@@ -36,7 +42,7 @@ body:
     attributes:
       label: App version
       description: "Settings, About Chess Pass."
-      placeholder: "1.0"
+      placeholder: "1.1"
     validations:
       required: true
   - type: input

@@ -22,8 +22,9 @@ This repo is the public home for Chess Pass users: the user guide, bug reports a
 3. Learn a line by playing it from memory. The note on each move comes after your try.
 4. Open Today and tap Start review when lines are due.
 5. Share a game as PGN from any chess app to see where it left your line.
+6. Settings, Widgets and tiles adds the home screen widgets and the Review now tile.
 
-Free: any 3 openings with every line, plus 3 traps (Scholar's Mate, Fried Liver, Legal's Mate). Pro, 2.49 EUR once (1.99 in countries with lower prices): all 52 openings and all 15 traps. No subscription, no promise of a rating gain.
+Free: any 3 openings with every line, plus 3 traps (Scholar's Mate, Fried Liver, Legal's Mate). Pro, 2.49 EUR once (1.99 in countries with lower prices): all 52 openings, all 15 traps and the eval bar. No subscription, no promise of a rating gain.
 
 ## The guide
 

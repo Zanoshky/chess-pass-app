@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>How Chess Pass works</title>
-<meta name="description" content="Every screen of Chess Pass, in the order you meet them: Today, Openings, an opening, the drill, traps, a shared game, Pro, Settings, Backup and About.">
+<meta name="description" content="Every screen of Chess Pass, in the order you meet them: Today, Openings, Watch, Practice, Play it out, traps, Words, Pro, Settings, Widgets and tiles, Backup and About.">
 <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <meta property="og:title" content="How Chess Pass works">
-<meta property="og:description" content="Every screen of Chess Pass, in the order you meet them: Today, Openings, an opening, the drill, traps, a shared game, Pro, Settings, Backup and About.">
+<meta property="og:description" content="Every screen of Chess Pass, in the order you meet them: Today, Openings, Watch, Practice, Play it out, traps, Words, Pro, Settings, Widgets and tiles, Backup and About.">
 <link rel="icon" href="img/icon.svg" type="image/svg+xml">
 <link rel="preload" href="fonts/JetBrainsMono-Bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/inter-regular.woff2" as="font" type="font/woff2" crossorigin>
@@ -28,86 +28,124 @@
 
     <p class="kicker">Guide</p>
     <h1>How Chess Pass works</h1>
-    <p class="lede">Every screen, in the order you meet them. The names here are the labels in the app.</p>
-    <nav class="toc" aria-label="On this page"><a href="#bar">The bottom bar</a><a href="#today">Today</a><a href="#openings">Openings</a><a href="#opening">An opening</a><a href="#drill">Drill</a><a href="#offline">Off the line</a><a href="#review">After a review</a><a href="#traps">Traps</a><a href="#game">A shared game</a><a href="#pro">Pro</a><a href="#settings">Settings</a><a href="#backup">Backup</a><a href="#privacy">Privacy</a><a href="#about">About</a></nav>
+    <p class="lede">Every screen, in the order you meet them. The names here are the labels in the app. This guide is for version 1.1.</p>
+    <nav class="toc" aria-label="On this page"><a href="#bar">The bottom bar</a><a href="#today">Today</a><a href="#openings">Openings</a><a href="#opening">An opening</a><a href="#watch">Watch</a><a href="#practice">Practice</a><a href="#offline">Off the line</a><a href="#playout">Play it out</a><a href="#review">After a review</a><a href="#traps">Traps</a><a href="#words">Words</a><a href="#game">A shared game</a><a href="#match">Practice match</a><a href="#pro">Pro</a><a href="#settings">Settings</a><a href="#look">Look</a><a href="#widgets">Widgets and tiles</a><a href="#backup">Backup</a><a href="#privacy">Privacy</a><a href="#about">About</a></nav>
 
     <h2 id="bar">The bottom bar</h2>
-    <p>Four sections: <strong>Today</strong>, <strong>Openings</strong>, <strong>Traps</strong> and <strong>Settings</strong>. A drill, an opening, Pro and the Settings pages open full screen, and Back takes you out of them.</p>
+    <p>Four sections: <strong>Today</strong>, <strong>Openings</strong>, <strong>Traps</strong> and <strong>Words</strong>. <strong>Settings</strong> is the gear at the top right of every section. A drill, an opening, Pro and the Settings pages open full screen, and Back takes you out of them.</p>
 
     <h2 id="today">Today</h2>
     <p>The verdict first: how many lines are due today, how long they take, and which openings they come from. They are mixed, so you learn to tell openings apart. <strong>Start review</strong> begins. Under it:</p>
     <ul>
       <li><strong>Keep learning:</strong> the openings you are in the middle of, with which line is next.</li>
       <li><strong>Next 7 days:</strong> how many lines come due each day.</li>
-      <li><strong>So far:</strong> your openings, lines known and day streak.</li>
+      <li><strong>So far:</strong> your openings, lines known, day streak and rating.</li>
+      <li><strong>Play a match:</strong> a full game against the engine, see <a href="#match">Practice match</a>.</li>
     </ul>
-    <p>The search key at the top finds an opening by name.</p>
+    <p>With nothing due the card says <strong>All done for today</strong>, and <strong>Learn a new line</strong> adds a fresh one.</p>
 
     <h2 id="openings">Openings</h2>
-    <p>All 52 openings, most played first. The ranking is how often club players at your rating play each one. Chips at the top filter the list. A card on top says how many free openings you have picked: any 3 are free, and the other 49 come with Pro. Tap an opening to open its page. Tap a locked one and a sheet shows what Pro adds.</p>
+    <p>All 52 openings, most played first. The ranking is how often club players at your rating play each one. Chips at the top filter the list: All, As White, Against 1.e4, Against 1.d4 and Other. A card on top says how many free openings you have picked: any 3 are free, and the other 49 come with Pro. Tap an opening to open its page. Tap a locked one and a sheet shows what Pro adds. <strong>Share a game</strong> and <strong>Paste a game</strong> are here too, see <a href="#game">A shared game</a>.</p>
 
     <h2 id="opening">An opening</h2>
-    <p>Its name and tags: the ECO code, which side you play, how hard it is, and <strong>Free pick</strong> if it is one of your 3. Then a board, and:</p>
+    <p>Its name and tags, including <strong>Free pick</strong> if it is one of your 3. Then a board, and:</p>
     <ul>
       <li><strong>The idea:</strong> what the opening is trying to do, in plain English.</li>
-      <li><strong>How it scores:</strong> how its games ended, and how often it is played.</li>
-      <li><strong>Lines:</strong> each line, with where it stands: new, learned, or due.</li>
+      <li><strong>How it scores:</strong> how its games ended for White, Black and draws, and how often it is played.</li>
+      <li><strong>Lines:</strong> each line, with where it stands: not learned yet, due for review today, or back in some days.</li>
     </ul>
-    <p>The key at the bottom, like <strong>Learn line 3</strong>, starts the next line. A pick can be swapped only until you learn a line in it.</p>
+    <p>The key at the bottom starts the next line. <strong>Pick as a free opening</strong> makes it one of your 3. A pick can be given back with <strong>Give this pick back</strong> only until you have learned a line in it.</p>
 
-    <h2 id="drill">Drill</h2>
-    <p>You play the line from memory. The top shows whose turn it is (<strong>Your move</strong>), the score of the position, and your misses and hints. The bar left of the board shows who is better. Move a piece by tapping it and then its square.</p>
+    <h2 id="watch">Watch</h2>
+    <p>A new line opens in <strong>Watch</strong> first. The line plays itself, slowly, and every move comes with a note, yours and your opponent's. Keys: <strong>Back</strong>, <strong>Pause</strong> or <strong>Play</strong>, and <strong>Next</strong> to step by hand. At the last move the note says "That is the whole line", and <strong>Practice it</strong> starts your try.</p>
+    <p>With Pro, each move also shows how the engine number changes, as a short sentence like "Engine +0.3. About the same as before: a sound move." Small changes read as steady. These numbers come from the engine results that ship in the app.</p>
+
+    <h2 id="practice">Practice</h2>
+    <p>You play the line from memory. The top shows whose turn it is (<strong>Your move</strong>), and your misses and hints. Move a piece by tapping it and then its square.</p>
     <ul>
       <li>A right move plays and the line goes on. After your try, the note on that move says why it is played.</li>
       <li>A wrong move is shown and you try again, and it counts as a miss.</li>
-      <li><strong>Hint</strong> shows the move, and counts as a hint. <strong>Start over</strong> goes back to the first move.</li>
+      <li><strong>Hint</strong> works in two steps. The first tap lights the piece that moves next and counts as one hint. The second tap draws the arrow and shows the reason for the move.</li>
+      <li><strong>Start over</strong> goes back to the first move.</li>
+      <li><strong>Moves</strong> lists the moves played so far.</li>
     </ul>
-    <p>At the end, <strong>Line learned</strong> shows your misses and hints and when the line is back for review, with <strong>Play it again</strong>.</p>
+    <p>With Pro and the <strong>Eval bar</strong> switch on, a bar beside the board and a score at the top show who is better. At the end, <strong>Line learned</strong> shows your misses and hints and when the line is back for review.</p>
 
     <h2 id="offline">Off the line</h2>
     <p>Play a move that is not in the line and a sheet opens. It says how good or bad the move is and why, with two rows: <strong>The line</strong> and <strong>Your move</strong>, each with its score. The numbers were computed ahead of time by a strong engine and ship in the app, so this works offline. Three keys:</p>
     <dl>
       <dt>Back to the line</dt><dd>Undo your move and go on with the line.</dd>
       <dt>Show why</dt><dd>Plays the engine line, so you can see what happens.</dd>
-      <dt>Play on</dt><dd>Keep playing the position from here against a small engine built into the app.</dd>
+      <dt>Play on</dt><dd>Keep playing the position from here against the computer at your level, with a small engine built into the app.</dd>
     </dl>
+
+    <h2 id="playout">Play it out</h2>
+    <p>When a line ends, the sheet offers <strong>Play it out</strong> (unless the line ends in checkmate). The game goes on from the last position against the computer at your level, so you see how the opening turns into a game. It works in openings and traps, in Learn, Review and Practice. <strong>Start over</strong> takes you back to move one of the line.</p>
 
     <h2 id="review">After a review</h2>
-    <p>Each clean review pushes a line further out along the ladder: 1 day, 3 days, 1 week, 2 weeks, 1 month, 3 months. A miss steps it back. The sheet shows <strong>Clean review</strong>, the date the line is back, and how many due lines are left today. <strong>Next line</strong> goes on, and <strong>Done for today</strong> stops.</p>
+    <p>Each clean review pushes a line further out along the ladder: 1 day, 3 days, 1 week, 2 weeks, 1 month, 3 months. A miss steps it back. The sheet shows <strong>Clean review</strong> or <strong>Back a step</strong>, the date the line is back, and how many due lines are left today. <strong>Next line</strong> goes on, and <strong>Done for today</strong> stops.</p>
 
     <h2 id="traps">Traps</h2>
-    <p>15 traps, three of them free: Scholar's Mate, Fried Liver and Legal's Mate. A featured trap sits on top with two keys: <strong>Set it</strong> (play the trap against a player who does not know the line) and <strong>Dodge it</strong> (learn to see it coming). <strong>All traps</strong> lists the rest. A locked trap opens the Pro sheet.</p>
+    <p>15 traps, three of them free: Scholar's Mate, Fried Liver and Legal's Mate. A featured trap sits on top with two keys: <strong>Play the trap</strong> (win with it against a player who does not know the line) and <strong>Stop the trap</strong> (learn the safe reply when someone tries it on you). <strong>All traps</strong> lists the rest. A locked trap opens the Pro sheet.</p>
+
+    <h2 id="words">Words</h2>
+    <p>A dictionary of 152 chess words in plain English, each with a small board diagram. Search at the top, or browse by group: The board, Pieces and rules, Writing moves, Tactics, Strategy, Openings, Endgame, How games end. On a word, swipe or use <strong>Previous word</strong> and <strong>Next word</strong>, and <strong>Mark as learned</strong> when you know it. <strong>Study the rest</strong> walks the words you have not learned yet.</p>
 
     <h2 id="game">A shared game (Your game)</h2>
-    <p>In any chess app, share a game as PGN and pick Chess Pass in the Android share sheet. The moves pass on your phone and nothing goes online. The Your game screen shows the opening, which side you played, and the move where the game left your line, with a verdict. Two rows give the score of the line's move and of the move played, and a short reason follows. <strong>Drill this line today</strong> adds the line to today's review.</p>
+    <p>In any chess app, share a game as PGN and pick Chess Pass in the Android share sheet. Or copy the game and tap <strong>Paste a game</strong> in Openings. The moves pass on your phone and nothing goes online. The Your game screen shows the opening, which side you played, and the move where the game left your line, with a verdict. Two rows give the score of the line's move and of the move played, and a short reason follows. <strong>Drill this line today</strong> adds the line to today's review.</p>
+
+    <h2 id="match">Practice match</h2>
+    <p>On Today, <strong>Play a match</strong> lets you pick <strong>Difficulty</strong> (Easy, Normal or Hard) and <strong>You play</strong> (White, Black or Random). A finished game moves your <strong>rating</strong>. The match is saved after every move, and Today shows <strong>Continue your match</strong> if one is open. <strong>Resign</strong> counts as a loss. It is free for everyone.</p>
 
     <h2 id="pro">Pro</h2>
-    <p>Opened from Settings or from anything locked. It shows <strong>Every opening</strong> with the price, <strong>What you get</strong> (all 52 openings, all 15 traps, one review for everything), and <strong>Free stays free</strong>. <strong>Get Pro</strong> takes the one payment through Google Play, with no subscription and no account. <strong>Restore purchase</strong> brings it back on a new phone with the same Google account. <strong>Not now</strong> closes the sheet.</p>
+    <p>Opened from Settings or from anything locked. It shows <strong>Every opening, once</strong> with the price, <strong>What you get</strong>, and <strong>Free stays free</strong>. Pro is 2.49 once (1.99 in many countries) and adds:</p>
+    <ul>
+      <li>All 52 openings and all 15 traps.</li>
+      <li>The <strong>Eval bar</strong>: the engine score beside the board, in the drill header, after each watched move and in Check your games.</li>
+      <li>One review for everything: every line you learn joins one mixed daily review.</li>
+    </ul>
+    <p><strong>Get Pro</strong> takes the one payment through Google Play, with no subscription and no account. <strong>Restore purchase</strong> brings it back on a new phone with the same Google account. <strong>Not now</strong> closes the sheet. Free users never see the eval bar, but the verdict on the off line sheet stays free.</p>
 
     <h2 id="settings">Settings</h2>
+    <p>Open it with the gear at the top right.</p>
     <dl>
-      <dt>Look</dt><dd>Follow the phone, Light, Dark or Black.</dd>
-      <dt>Language</dt><dd>Follow the phone, or pick one.</dd>
-      <dt>Board and pieces</dt><dd>The board colours and pieces, and coordinates.</dd>
-      <dt>Moves and sound</dt><dd>Show legal moves, and move sounds. Sound is off until you turn it on.</dd>
-      <dt>Daily practice</dt><dd>How many new lines a day, and the most reviews.</dd>
-      <dt>Review order</dt><dd>The order your due lines come in. The default is Mixed openings.</dd>
-      <dt>Backup</dt><dd>Save your progress to a file you pick.</dd>
-      <dt>Pro</dt><dd>See what Pro adds.</dd>
+      <dt>Look</dt><dd>Theme, Board and Pieces, see below.</dd>
+      <dt>Your level</dt><dd>The rating closest to yours. It ranks the openings and sets how strong the computer plays in Play it out and Play on.</dd>
+      <dt>Eval bar</dt><dd>A switch, shown only when Pro is unlocked. On by default. It hides or shows the bar, the score in the drill header, the engine sentence in Watch and the bar in Check your games.</dd>
+      <dt>Sound</dt><dd>Soft move, capture and check sounds.</dd>
+      <dt>Vibration</dt><dd>A light buzz on check, stronger on mate, and its own pattern when you win or lose.</dd>
+      <dt>Reminders</dt><dd>When reviews are due, a daily reminder and Keep my streak, with the time you practise. They pause after 3 in a row you ignore.</dd>
+      <dt>Widgets and tiles</dt><dd>Add the home screen widgets and the Quick Settings tile, see below.</dd>
+      <dt>Daily review cap</dt><dd>The most reviews Today asks of you in one day.</dd>
+      <dt>Backup</dt><dd>Save your progress to a file, or restore it from one.</dd>
+      <dt>Pro</dt><dd>See what Pro adds, or Pro is unlocked.</dd>
       <dt>More apps</dt><dd>Other apps from the same developer.</dd>
-      <dt>Privacy</dt><dd>The promises and the permissions, and a link to the privacy policy.</dd>
-      <dt>Help</dt><dd>This guide, bug reports and ideas. They open in your browser.</dd>
-      <dt>About Chess Pass</dt><dd>The version, your data, thanks and credits.</dd>
+      <dt>Privacy</dt><dd>The promises and the permissions.</dd>
+      <dt>Help</dt><dd>User guide, Report a bug or ask for a feature, and Privacy policy. They open in your browser.</dd>
+      <dt>About</dt><dd>The version, your data and credits.</dd>
     </dl>
 
+    <h2 id="look">Look</h2>
+    <p>Settings, Look. <strong>Theme</strong>: Follow the phone, Light, Dark or Black (true black for OLED). <strong>Board</strong>: Grass (the default) or Blue. <strong>Pieces</strong>: Classic (the default, drawn for Chess Pass) or Celtic, carved pieces by Maurizio Monge under the MIT license. Picking one applies at once.</p>
+
+    <h2 id="widgets">Widgets and tiles</h2>
+    <p>Settings, Widgets and tiles shows previews. Tap a widget to add it to your home screen.</p>
+    <dl>
+      <dt>Today</dt><dd>Lines due and your streak. Bigger sizes add a key: <strong>Review now</strong> when lines are due, or <strong>Learn a new line</strong> when none are. Taller sizes show the next line.</dd>
+      <dt>Next move</dt><dd>A position from your lines with you to move. Tap it and Practice opens at that position.</dd>
+      <dt>Streak</dt><dd>A small 1 by 1 widget with your day streak, lit once you have trained today.</dd>
+      <dt>Review now</dt><dd>A Quick Settings tile. It reads "N lines due" or "Nothing due", and opens Chess Pass to start the review. Tap <strong>Add the tile</strong> on the same page.</dd>
+    </dl>
+    <p>If your launcher cannot add widgets from the page, touch and hold an empty spot on your home screen, tap Widgets, then pick Chess Pass. If the tile cannot be added from the page, swipe down twice, tap the pencil, and drag Review now into your tiles. The widgets read your progress on the phone and send nothing anywhere.</p>
+
     <h2 id="backup">Backup</h2>
-    <p>Your progress stays on the phone and is kept out of Android's cloud backup and out of the copy to a new phone, on purpose. Backup saves it to a file you pick, and only you decide where the file goes. To move to a new phone, save a backup, copy the file across, and use Backup on the new phone to load it. See the <a href="cookbook.html#move">cookbook</a>.</p>
+    <p>Your progress stays on the phone and is kept out of Android's cloud backup and out of the copy to a new phone, on purpose. Settings, Backup offers <strong>Save progress to a file</strong> and <strong>Restore progress from a file</strong>, and only you decide where the file goes. To move to a new phone, see the <a href="cookbook.html#move">cookbook</a>.</p>
 
     <h2 id="privacy">Privacy</h2>
-    <p>The promise chips (no ads, no tracking, no analytics, no crash reports, no account, no AI, no internet), then the permissions. Chess Pass has no internet permission. Google Play handles the Pro payment on its own. The row at the bottom opens the privacy policy at <a href="https://chesspass.zanoski.com/privacy">chesspass.zanoski.com/privacy</a>.</p>
+    <p>The promise chips (no ads, no tracking, no analytics, no crash reports, no account, no AI, no internet), then the permissions: Google Play billing for Pro, vibration, notifications for the reminders you turn on, and start at boot to set them again. Chess Pass has no internet permission. The last row opens the privacy policy at <a href="https://chesspass.zanoski.com/privacy">chesspass.zanoski.com/privacy</a>.</p>
 
     <h2 id="about">About Chess Pass</h2>
-    <p>The version, a note on your data, thanks, and the credits: the opening names and codes (lichess-org chess-openings list, CC0), how often each opening is played (the Lichess open game database, CC0), the notes (written for Chess Pass) and the move sounds (CC0 recordings from Freesound). Chess Pass is independent and not made or endorsed by Lichess.</p>
+    <p>The version, a note on your data, and the credits: the opening names and codes (lichess-org chess-openings list, CC0), how often each opening is played (the Lichess open game database, CC0), the notes (written for Chess Pass), the Celtic pieces (Maurizio Monge, MIT) and the move sounds (CC0 recordings from Freesound). Chess Pass is independent and not made or endorsed by Lichess.</p>
 
   </div>
 </main>

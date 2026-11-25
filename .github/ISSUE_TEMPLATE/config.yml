@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: User guide
+    url: https://zanoshky.github.io/chess-pass-app/
+    about: Every screen explained, short recipes, fixes and answers to common questions.
+  - name: chesspass.zanoski.com
+    url: https://chesspass.zanoski.com
+    about: The Chess Pass website, with the privacy policy and the terms.

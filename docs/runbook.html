@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chess Pass runbook</title>
+<meta name="description" content="Fixes for Chess Pass: locked openings, purchases and restore, lost progress, sound, sharing a game and crashes. The symptom, why, and the taps that fix it.">
+<meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Chess Pass runbook">
+<meta property="og:description" content="Fixes for Chess Pass: locked openings, purchases and restore, lost progress, sound, sharing a game and crashes. The symptom, why, and the taps that fix it.">
+<link rel="icon" href="img/icon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/JetBrainsMono-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="img/icon.svg" alt="" width="34" height="34"><span>Chess Pass</span></a>
+    <nav aria-label="Guide pages"><a href="index.html">Home</a><a href="guide.html">Guide</a><a href="cookbook.html">Cookbook</a><a href="runbook.html" aria-current="page">Runbook</a><a href="faq.html">Questions</a><a href="report.html">Report a bug</a></nav>
+    <a class="key" href="https://play.google.com/store/apps/details?id=com.zanoshky.chesspass">Get the app</a>
+  </div>
+</header>
+<main id="main" class="page">
+  <div class="wrap">
+
+    <p class="kicker">Runbook</p>
+    <h1>Runbook</h1>
+    <p class="lede">Something wrong? Find the symptom, read why it happens, and follow the taps.</p>
+    <h2 id="locked">An opening or a trap is locked</h2>
+    <dl><dt>Why</dt><dd>Free is any 3 openings and 3 traps. The rest is Pro.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>Tap the lock to see the Pro sheet.</li><li>If you already bought Pro, open Settings, Pro, and tap Restore purchase.</li></ol>
+    <h2 id="nobuy">Get Pro does nothing, or the payment fails</h2>
+    <dl><dt>Why</dt><dd>Pro goes through the Google Play app on your phone. It needs Play, a Google account on the phone and a working payment method.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>Open the Google Play app and check you are signed in and it works.</li><li>Check the payment method in Play.</li><li>Close Chess Pass, open it again and tap Get Pro.</li><li>If Play shows an error, note the text and write to zanoski.marko@gmail.com.</li></ol>
+    <h2 id="paidlocked">I paid, but Pro is still locked</h2>
+    <dl><dt>Why</dt><dd>Chess Pass asks Google Play when it starts. A slow or pending payment can take a few minutes to show.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>Wait a few minutes, then close and reopen Chess Pass.</li><li>Open Settings, Pro, and tap Restore purchase.</li><li>Make sure the phone uses the Google account that paid.</li><li>Check Play, Payments and subscriptions, Budget and history, that the payment went through.</li><li>Still locked? Write to zanoski.marko@gmail.com with the date and the order number from your Google Play receipt.</li></ol>
+    <h2 id="refund">I got a refund and Pro went away</h2>
+    <dl><dt>Why</dt><dd>Chess Pass asks Google Play again when it starts, so a refund takes Pro away. That is expected.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>Nothing to fix. Your progress stays. Locked openings go back to locked.</li></ol>
+    <h2 id="newphone">Pro is gone on my new phone</h2>
+    <dl><dt>Why</dt><dd>Pro belongs to your Google account, not to the phone.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>Sign in with the same Google account.</li><li>Open Settings, Pro, and tap Restore purchase.</li></ol>
+    <h2 id="progress">My progress is gone on a new phone</h2>
+    <dl><dt>Why</dt><dd>Progress stays only on the phone it was made on. It is kept out of cloud backups on purpose.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>If you still have the old phone, open Settings, Backup there and save a file.</li><li>Copy the file across, then open Settings, Backup on the new phone and load it.</li><li>With no backup file the old progress cannot be recovered, because it was never sent anywhere.</li></ol>
+    <h2 id="swap">I cannot swap one of my 3 free openings</h2>
+    <dl><dt>Why</dt><dd>A pick can be swapped only until you learn a line in it.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>Pick a different opening for the open slots, or buy Pro to open all 52.</li></ol>
+    <h2 id="sound">No sound on moves</h2>
+    <dl><dt>Why</dt><dd>Move sounds are off until you turn them on.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>Open Settings, Moves and sound and turn sound on.</li><li>Check the phone is not on silent and the media volume is up.</li></ol>
+    <h2 id="noshare">Chess Pass is not in the share sheet, or the game does not open</h2>
+    <dl><dt>Why</dt><dd>Chess Pass takes a game as PGN text. Some apps share a picture or a link instead.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>In the other app, look for Export or Share as PGN, and share the PGN, not a link or an image.</li><li>Choose Chess Pass in the share sheet.</li><li>If the game still does not show where it left a line, its first moves may not match any of the 52 openings.</li></ol>
+    <h2 id="due">Today shows no lines, or too many</h2>
+    <dl><dt>Why</dt><dd>Lines come due as their review gap runs out. Daily practice caps how many show.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>Open Settings, Daily practice to change the number of new lines and reviews.</li><li>Learn a new line from Openings to add to the queue.</li></ol>
+    <h2 id="look">The app looks too big, too small or too dark</h2>
+    <dl><dt>Why</dt><dd>Chess Pass follows the phone for look and text size.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>Open Settings, Look and pick Light, Dark or Black.</li><li>Change the text size in the phone settings, Display.</li></ol>
+    <h2 id="crash">The app crashes or looks wrong</h2>
+    <dl><dt>Why</dt><dd>Something unexpected.</dd></dl>
+    <p><strong>The taps that fix it:</strong></p>
+    <ol><li>Update Chess Pass in Google Play and restart the phone.</li><li>Save a backup in Settings, Backup first, if you can.</li><li>Report it with the steps, your app version (Settings, About Chess Pass), phone and Android version: <a href="report.html">Report a bug</a>.</li></ol>
+
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    <span>Chess Pass by <a href="https://zanoski.com">Marko Zanoski</a></span>
+    <nav aria-label="Footer"><a href="https://chesspass.zanoski.com/">Website</a><a href="index.html">User guide</a><a href="report.html">Report a bug</a><a href="https://chesspass.zanoski.com/privacy">Privacy</a><a href="https://chesspass.zanoski.com/terms">Terms</a></nav>
+    <p class="gov">Chess Pass is independent and is not made, endorsed or sponsored by Lichess.</p>
+    <span class="lic">Guide text and images are shared under CC BY 4.0. The Chess Pass app itself is proprietary.</span>
+  </div>
+</footer>
+</body>
+</html>

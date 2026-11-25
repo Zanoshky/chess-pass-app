@@ -1,0 +1,86 @@
+name: Bug report
+description: Something in Chess Pass does not work, looks wrong, a line or note is wrong, or it crashes.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. One problem per report, please.
+        Issues here are public. Do not write your name, address or anything else private, and check a screenshot before you attach it.
+  - type: dropdown
+    id: where
+    attributes:
+      label: "Which screen?"
+      options:
+        - Today
+        - Openings
+        - Opening page
+        - Drill
+        - Traps
+        - Shared game
+        - Pro
+        - Settings
+        - Backup
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: opening
+    attributes:
+      label: Opening and line
+      description: "For a wrong line or note: the opening, which line, and the move."
+      placeholder: Italian Game, line 3, move 5
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: "Settings, About Chess Pass."
+      placeholder: "1.0"
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone model
+      description: Android settings, About phone.
+      placeholder: Pixel 8
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      description: Android settings, About phone, Android version.
+      placeholder: "15"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you did, one step per line.
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or screen recording
+      description: Drag the file in here.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched the open issues and this is not there yet.
+          required: true
+        - label: My report and screenshots show nothing private.
+          required: true

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How Chess Pass works</title>
+<meta name="description" content="Every screen of Chess Pass, in the order you meet them: Today, Openings, an opening, the drill, traps, a shared game, Pro, Settings, Backup and About.">
+<meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="How Chess Pass works">
+<meta property="og:description" content="Every screen of Chess Pass, in the order you meet them: Today, Openings, an opening, the drill, traps, a shared game, Pro, Settings, Backup and About.">
+<link rel="icon" href="img/icon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/JetBrainsMono-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="img/icon.svg" alt="" width="34" height="34"><span>Chess Pass</span></a>
+    <nav aria-label="Guide pages"><a href="index.html">Home</a><a href="guide.html" aria-current="page">Guide</a><a href="cookbook.html">Cookbook</a><a href="runbook.html">Runbook</a><a href="faq.html">Questions</a><a href="report.html">Report a bug</a></nav>
+    <a class="key" href="https://play.google.com/store/apps/details?id=com.zanoshky.chesspass">Get the app</a>
+  </div>
+</header>
+<main id="main" class="page">
+  <div class="wrap">
+
+    <p class="kicker">Guide</p>
+    <h1>How Chess Pass works</h1>
+    <p class="lede">Every screen, in the order you meet them. The names here are the labels in the app.</p>
+    <nav class="toc" aria-label="On this page"><a href="#bar">The bottom bar</a><a href="#today">Today</a><a href="#openings">Openings</a><a href="#opening">An opening</a><a href="#drill">Drill</a><a href="#offline">Off the line</a><a href="#review">After a review</a><a href="#traps">Traps</a><a href="#game">A shared game</a><a href="#pro">Pro</a><a href="#settings">Settings</a><a href="#backup">Backup</a><a href="#privacy">Privacy</a><a href="#about">About</a></nav>
+
+    <h2 id="bar">The bottom bar</h2>
+    <p>Four sections: <strong>Today</strong>, <strong>Openings</strong>, <strong>Traps</strong> and <strong>Settings</strong>. A drill, an opening, Pro and the Settings pages open full screen, and Back takes you out of them.</p>
+
+    <h2 id="today">Today</h2>
+    <p>The verdict first: how many lines are due today, how long they take, and which openings they come from. They are mixed, so you learn to tell openings apart. <strong>Start review</strong> begins. Under it:</p>
+    <ul>
+      <li><strong>Keep learning:</strong> the openings you are in the middle of, with which line is next.</li>
+      <li><strong>Next 7 days:</strong> how many lines come due each day.</li>
+      <li><strong>So far:</strong> your openings, lines known and day streak.</li>
+    </ul>
+    <p>The search key at the top finds an opening by name.</p>
+
+    <h2 id="openings">Openings</h2>
+    <p>All 52 openings, most played first. The ranking is how often club players at your rating play each one. Chips at the top filter the list. A card on top says how many free openings you have picked: any 3 are free, and the other 49 come with Pro. Tap an opening to open its page. Tap a locked one and a sheet shows what Pro adds.</p>
+
+    <h2 id="opening">An opening</h2>
+    <p>Its name and tags: the ECO code, which side you play, how hard it is, and <strong>Free pick</strong> if it is one of your 3. Then a board, and:</p>
+    <ul>
+      <li><strong>The idea:</strong> what the opening is trying to do, in plain English.</li>
+      <li><strong>How it scores:</strong> how its games ended, and how often it is played.</li>
+      <li><strong>Lines:</strong> each line, with where it stands: new, learned, or due.</li>
+    </ul>
+    <p>The key at the bottom, like <strong>Learn line 3</strong>, starts the next line. A pick can be swapped only until you learn a line in it.</p>
+
+    <h2 id="drill">Drill</h2>
+    <p>You play the line from memory. The top shows whose turn it is (<strong>Your move</strong>), the score of the position, and your misses and hints. The bar left of the board shows who is better. Move a piece by tapping it and then its square.</p>
+    <ul>
+      <li>A right move plays and the line goes on. After your try, the note on that move says why it is played.</li>
+      <li>A wrong move is shown and you try again, and it counts as a miss.</li>
+      <li><strong>Hint</strong> shows the move, and counts as a hint. <strong>Start over</strong> goes back to the first move.</li>
+    </ul>
+    <p>At the end, <strong>Line learned</strong> shows your misses and hints and when the line is back for review, with <strong>Play it again</strong>.</p>
+
+    <h2 id="offline">Off the line</h2>
+    <p>Play a move that is not in the line and a sheet opens. It says how good or bad the move is and why, with two rows: <strong>The line</strong> and <strong>Your move</strong>, each with its score. The numbers were computed ahead of time by a strong engine and ship in the app, so this works offline. Three keys:</p>
+    <dl>
+      <dt>Back to the line</dt><dd>Undo your move and go on with the line.</dd>
+      <dt>Show why</dt><dd>Plays the engine line, so you can see what happens.</dd>
+      <dt>Play on</dt><dd>Keep playing the position from here against a small engine built into the app.</dd>
+    </dl>
+
+    <h2 id="review">After a review</h2>
+    <p>Each clean review pushes a line further out along the ladder: 1 day, 3 days, 1 week, 2 weeks, 1 month, 3 months. A miss steps it back. The sheet shows <strong>Clean review</strong>, the date the line is back, and how many due lines are left today. <strong>Next line</strong> goes on, and <strong>Done for today</strong> stops.</p>
+
+    <h2 id="traps">Traps</h2>
+    <p>15 traps, three of them free: Scholar's Mate, Fried Liver and Legal's Mate. A featured trap sits on top with two keys: <strong>Set it</strong> (play the trap against a player who does not know the line) and <strong>Dodge it</strong> (learn to see it coming). <strong>All traps</strong> lists the rest. A locked trap opens the Pro sheet.</p>
+
+    <h2 id="game">A shared game (Your game)</h2>
+    <p>In any chess app, share a game as PGN and pick Chess Pass in the Android share sheet. The moves pass on your phone and nothing goes online. The Your game screen shows the opening, which side you played, and the move where the game left your line, with a verdict. Two rows give the score of the line's move and of the move played, and a short reason follows. <strong>Drill this line today</strong> adds the line to today's review.</p>
+
+    <h2 id="pro">Pro</h2>
+    <p>Opened from Settings or from anything locked. It shows <strong>Every opening</strong> with the price, <strong>What you get</strong> (all 52 openings, all 15 traps, one review for everything), and <strong>Free stays free</strong>. <strong>Get Pro</strong> takes the one payment through Google Play, with no subscription and no account. <strong>Restore purchase</strong> brings it back on a new phone with the same Google account. <strong>Not now</strong> closes the sheet.</p>
+
+    <h2 id="settings">Settings</h2>
+    <dl>
+      <dt>Look</dt><dd>Follow the phone, Light, Dark or Black.</dd>
+      <dt>Language</dt><dd>Follow the phone, or pick one.</dd>
+      <dt>Board and pieces</dt><dd>The board colours and pieces, and coordinates.</dd>
+      <dt>Moves and sound</dt><dd>Show legal moves, and move sounds. Sound is off until you turn it on.</dd>
+      <dt>Daily practice</dt><dd>How many new lines a day, and the most reviews.</dd>
+      <dt>Review order</dt><dd>The order your due lines come in. The default is Mixed openings.</dd>
+      <dt>Backup</dt><dd>Save your progress to a file you pick.</dd>
+      <dt>Pro</dt><dd>See what Pro adds.</dd>
+      <dt>More apps</dt><dd>Other apps from the same developer.</dd>
+      <dt>Privacy</dt><dd>The promises and the permissions, and a link to the privacy policy.</dd>
+      <dt>Help</dt><dd>This guide, bug reports and ideas. They open in your browser.</dd>
+      <dt>About Chess Pass</dt><dd>The version, your data, thanks and credits.</dd>
+    </dl>
+
+    <h2 id="backup">Backup</h2>
+    <p>Your progress stays on the phone and is kept out of Android's cloud backup and out of the copy to a new phone, on purpose. Backup saves it to a file you pick, and only you decide where the file goes. To move to a new phone, save a backup, copy the file across, and use Backup on the new phone to load it. See the <a href="cookbook.html#move">cookbook</a>.</p>
+
+    <h2 id="privacy">Privacy</h2>
+    <p>The promise chips (no ads, no tracking, no analytics, no crash reports, no account, no AI, no internet), then the permissions. Chess Pass has no internet permission. Google Play handles the Pro payment on its own. The row at the bottom opens the privacy policy at <a href="https://chesspass.zanoski.com/privacy">chesspass.zanoski.com/privacy</a>.</p>
+
+    <h2 id="about">About Chess Pass</h2>
+    <p>The version, a note on your data, thanks, and the credits: the opening names and codes (lichess-org chess-openings list, CC0), how often each opening is played (the Lichess open game database, CC0), the notes (written for Chess Pass) and the move sounds (CC0 recordings from Freesound). Chess Pass is independent and not made or endorsed by Lichess.</p>
+
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    <span>Chess Pass by <a href="https://zanoski.com">Marko Zanoski</a></span>
+    <nav aria-label="Footer"><a href="https://chesspass.zanoski.com/">Website</a><a href="index.html">User guide</a><a href="report.html">Report a bug</a><a href="https://chesspass.zanoski.com/privacy">Privacy</a><a href="https://chesspass.zanoski.com/terms">Terms</a></nav>
+    <p class="gov">Chess Pass is independent and is not made, endorsed or sponsored by Lichess.</p>
+    <span class="lic">Guide text and images are shared under CC BY 4.0. The Chess Pass app itself is proprietary.</span>
+  </div>
+</footer>
+</body>
+</html>
